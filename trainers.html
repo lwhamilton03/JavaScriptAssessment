@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <title>JSON Manipulation</title>
+    <script src="js/submit.js"></script>
+    <script src="js/data.js"></script>
+    <script> console.log(names)</script>
+</head>
+
+<body >
+    <h1>Trainers Page</h1>
+    <div id = "names">  
+        <h2>Search for Trainers details by Name</h2>
+        <br/> 
+        <input id= "nameInput" placeholder="Enter Name..." type="text"> 
+        <button onclick="submitName()"> Submit for Trainers Details </button>
+    </div>
+    <div id="showInfo"> 
+        <!-- IDEA TO CREATE PARAGRAPH NODE HERE AND REMOVE FROM HERE USING FUNCTION CREATE PARA ()  -->
+    </div>
+
+    <div id="skills">
+        <h2> Search for Trainers by Skill</h2>
+        <br/> 
+        <input id= "skillInput" placeholder="Enter Skill..." type="text"> 
+        <button onclick="findSkills()"> Search for Trainers by Skill </button>
+        <div id="showNames">  
+        </div>
+    </div>
+
+    
+</body>
+
+</html>
